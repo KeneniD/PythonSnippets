@@ -1,0 +1,16 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name, age, location):
+    # Use a breakpoint in the code line below to debug your script.
+    print("Hi "+ f'{name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print("my name is " + str(name) + " and i am " + str(age) + " years old and i live in the " + str(location))
+    print(f'my name is {name} and I am {age} years old and I live in the {location}')
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('AAA', '20', 'bb')
